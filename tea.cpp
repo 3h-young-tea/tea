@@ -83,8 +83,7 @@ void buf_push(optbuf *x,char *s,int l){
 		p=(char*)malloc(x->l+l);
 		if(p==NULL){
 			return;
-		}
-		memcpy(p,x->b,x->l);
+		}	memcpy(p,x->b,x->l);
 		free(x->b);
 	}	memcpy(p+x->l,s,l);
 	x->b=p;
