@@ -2,6 +2,8 @@
 
 **tea_editor_ante** - a lightweight terminal text editor for real coders.
 
+>  华夏同袍点这里 -> [readme_zh](https://github.com/3h-young-tea/tea/blob/main/README.zh.md)
+
 ## project description
 
 a minimal terminal-based text editor written in c++,  
