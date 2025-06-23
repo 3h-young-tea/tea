@@ -1,13 +1,15 @@
 # tea
 
-**tea_editor_ante** — a lightweight terminal text editor for real coders.
+**tea_editor_ante** - a lightweight terminal text editor for real coders.
 
 ## project description
 
 a minimal terminal-based text editor written in c++,  
 with vim-style navigation (`hjkl`).  
+designed for simplicity, speed, and staying close to the metal.  
 
-designed for simplicity, speed, and staying close to the metal.
+this project is primarily inspired by [kilo](https://github.com/antirez/kilo),  
+a classic minimal terminal text editor created by antirez.  
 
 >	*real coder won't die*
 
