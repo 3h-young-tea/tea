@@ -45,4 +45,4 @@ g++ -o tea tea.cpp -std=c++14 -O2 -static -w
 
 ## 协议
 
-[gplv3] (https://www.gnu.org/licenses/gpl-3.0.html)
+[gplv3](https://www.gnu.org/licenses/gpl-3.0.html)
