@@ -48,8 +48,7 @@ void reset_raw_mode(){
 void set_raw_mode(){
 	if(tcgetattr(STDIN_FILENO,&editor.origin)==EOF){
 		real_coder_wont_die("tcsetattr1");
-	}
-	termios x(editor.origin);
+	}	termios x(editor.origin);
 	x.c_iflag^=IXON;
 	x.c_lflag^=ECHO|ICANON|ISIG;
 	if(tcsetattr(STDIN_FILENO,TCSAFLUSH,&x)==EOF){
@@ -87,8 +86,7 @@ void buf_push(optbuf *x,char *s,int l){
 		}
 		memcpy(p,x->b,x->l);
 		free(x->b);
-	}
-	memcpy(p+x->l,s,l);
+	}	memcpy(p+x->l,s,l);
 	x->b=p;
 	x->l+=l;
 }
@@ -144,8 +142,7 @@ void print_row(optbuf *x){
 			if(t){
 				buf_push(x,"~",1);
 				t--;
-			}
-			while(t--){
+			}	while(t--){
 				buf_push(x," ",1);
 			}       buf_push(x,"real coder won`t die",20);
 		}else{
