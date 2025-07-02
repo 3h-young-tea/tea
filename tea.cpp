@@ -175,7 +175,6 @@ void init_editor(){
 signed main(){
 	set_raw_mode();
 	init_editor();
-	char op;
 	while(1){
 		refresh_term();
 		key_input();
