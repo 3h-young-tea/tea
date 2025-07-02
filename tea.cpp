@@ -11,7 +11,6 @@
 
 // macro
 
-#define ctrl_key(x) ((x)&0x1f)
 #define max(x,y) ((x)<(y)?(y):(x))
 #define min(x,y) ((x)<(y)?(x):(y))
 
